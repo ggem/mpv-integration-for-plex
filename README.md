@@ -6,7 +6,7 @@ Plex 桌面端使用的播放器是 mpv 播放器，mpv 播放器的部分功能
 ## 功能介绍
 01. **快进**：按 `右` 键快进 10 秒（支持自定义快进时长）。
 02. **快退**：按 `左` 键快退 10 秒（支持自定义快退时长）。
-03. **倍速播放**：按 `.` 键加速，按 `,` 键减速，按 `/` 键重置播放速度，按 `g` 键可开启或关闭全局播放速度模式。
+03. **倍速播放**：按 `.` 键加速，按 `,` 键减速，按 `/` 键重置播放速度，按 `g` 键可开启或关闭全局播放速度模式；按 `f` 键快速跳转到收藏播放速度（默认 2.5 倍速），再次按下恢复之前的播放速度。
 04. **逐帧播放**：按 `’` 键向前逐帧，按 `;` 键向后逐帧。
 05. **静音**：按 `j` 键切换静音模式，再次按下解除静音并恢复原音量。
 06. **截图**：按 `s` 键截取当前画面。
@@ -70,7 +70,7 @@ The player used by Plex desktop client is mpv player, some features of mpv playe
 ## Features
 01. **Fast Forward**: Press `right` to fast forward 10 seconds (customizable fast forward duration supported).
 02. **Rewind**: Press `left` to rewind 10 seconds (customizable rewind duration supported).
-03. **Multiply Speed Playback**: Press `.` to speed up, press `,` to slow down, press `/` to reset the playback speed, press `g` to turn the global playback speed mode on or off.
+03. **Multiply Speed Playback**: Press `.` to speed up, press `,` to slow down, press `/` to reset the playback speed, press `g` to turn the global playback speed mode on or off. Use key `f` to quickly jump to a favorite playback speed (default 2.5x). Press `f` again to restore the previous speed.
 04. **Frame-by-frame Playback**: press `'` to go forward frame-by-frame, press `;` to go backward frame-by-frame.
 05. **Mute**: Press `j` to switch the mute mode, press again to unmute and restore the original volume.
 06. **Screenshot**: Press `s` to capture the current screen.
