@@ -10,7 +10,14 @@ function stepFwd()
 end
 
 function stepBack()
-    mp.command("add speed -0.25")
+    local current_speed = mp.get_property_number("speed")
+    local step = 0.25
+    if current_speed <= 0.2 then
+        step = 0.05
+    elseif current_speed <= 0.5 then
+        step = 0.1
+    end
+    mp.command("add speed -" .. step)
     speed_level = mp.get_property("speed")
     mp.osd_message(string.format("Speed: %.2f", speed_level), 0.5)
 end
